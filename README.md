@@ -25,6 +25,11 @@ pip install pandas
 Here’s a simple code snippet demonstrating how to remove duplicates using pandas:
 ```python
 
+![Exact Deduplication](exact.png)
+![Partial Deduplication](partial.png)
+
+
+
 
 
 ## Output
