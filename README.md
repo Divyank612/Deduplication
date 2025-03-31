@@ -4,7 +4,7 @@
 This project focuses on deduplicating a dataset containing Steam video game records. Duplicate entries can arise due to multiple listings, data entry errors, or inconsistencies in naming conventions. This notebook processes the dataset to remove duplicate records and ensure data integrity.
 
 ## Dataset
-The dataset used in this project contains information about Steam video games, including details such as game titles, userid ownership type and hours played. The primary goal is to clean the data by identifying and removing duplicate entries.
+The dataset used in this project contains information about Steam video games, including details such as game_titles, user_id, ownership_type and hours played. The primary goal is to clean the data by identifying and removing duplicate entries.
 
 ## Requirements
 This notebook requires the following dependency:
@@ -23,7 +23,7 @@ pip install pandas
 
 ## Code Snippet
 Here’s a simple code snippet demonstrating how to remove duplicates using pandas:
-```python
+
 
 
 
